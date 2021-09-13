@@ -5,6 +5,19 @@
   justify-content: center;
   align-items: stretch;
 }
+.top-container {
+  position: relative;
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  flex: 1 1 0;
+}
+.bottom-row {
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  flex: 1 1 0;
+}
 .grid {
   height: 466px;
   flex: 1 1 0;
@@ -21,12 +34,6 @@
   height: 200px;
   min-width: 50px;
   min-height: 50px;
-}
-.bottom-row {
-  align-items: stretch;
-  min-width: 50px;
-  min-height: 50px;
-  flex: 1 1 0;
 }
 .image {
   min-width: 0;
