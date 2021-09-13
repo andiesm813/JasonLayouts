@@ -1,15 +1,17 @@
-<igx-grid [data]="northwindCustomers" [autoGenerate]="false" class="grid_1">
-  <igx-column field="customerID" header="customerID" title="customerID" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="companyName" header="companyName" title="companyName" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="contactName" header="contactName" title="contactName" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="contactTitle" header="contactTitle" title="contactTitle" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="address.street" header="street" title="address.street" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="address.city" header="city" title="address.city" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="address.region" header="region" title="address.region" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="address.postalCode" header="postalCode" title="address.postalCode" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="address.country" header="country" title="address.country" dataType="string" class="igx-column"></igx-column>
-  <igx-column field="address.phone" header="phone" title="address.phone" dataType="string" class="igx-column"></igx-column>
-</igx-grid>
+<div class="top-container row">
+  <igx-grid [data]="northwindCustomers" [autoGenerate]="false" class="grid_1">
+    <igx-column field="customerID" header="customerID" title="customerID" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="companyName" header="companyName" title="companyName" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="contactName" header="contactName" title="contactName" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="contactTitle" header="contactTitle" title="contactTitle" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="address.street" header="street" title="address.street" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="address.city" header="city" title="address.city" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="address.region" header="region" title="address.region" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="address.postalCode" header="postalCode" title="address.postalCode" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="address.country" header="country" title="address.country" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="address.phone" header="phone" title="address.phone" dataType="string" class="igx-column"></igx-column>
+  </igx-grid>
+</div>
 <div class="bottom-row row">
   <igx-grid [data]="northwindOrders" [autoGenerate]="false" height="466px" class="grid">
     <igx-column field="orderID" header="orderID" title="orderID" dataType="number" class="igx-column"></igx-column>
