@@ -1,0 +1,44 @@
+<div class="column-layout column">
+  <div class="header-and-filtering column">
+    <h6 class="title_1">Background image goes here</h6>
+    <div class="filtering row">
+      <h6 class="title">Filters go here</h6>
+    </div>
+  </div>
+  <div class="row-layout row">
+    <h5 class="title_2">Search Results filtering</h5>
+  </div>
+  <div class="column-layout_1 column">
+    <div class="row-layout_2 row">
+      <h5 class="title_2">Sorting</h5>
+    </div>
+    <div class="row-layout_1 row">
+      <igx-card type="outlined" *ngFor="let item of northwindEmployees" class="card">
+        <igx-card-media height="200px">
+          <img [src]="item.avatarUrl" />
+        </igx-card-media>
+        <igx-card-header>
+          <h3 igxCardHeaderTitle>{{ item.firstName }}</h3>
+          <h5 igxCardHeaderSubtitle>{{ item.title }}</h5>
+        </igx-card-header>
+        <igx-card-content class="content">
+          <p class="text"></p>
+        </igx-card-content>
+        <igx-card-actions class="actions">
+          <button igxButton="flat" [disabled]="false" class="button">
+            <span>Button</span>
+          </button>
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">favorite</igx-icon>
+          </button>
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">bookmark</igx-icon>
+          </button>
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">share</igx-icon>
+          </button>
+        </igx-card-actions>
+      </igx-card>
+    </div>
+  </div>
+</div>

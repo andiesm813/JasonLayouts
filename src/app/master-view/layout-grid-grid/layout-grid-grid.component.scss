@@ -1,0 +1,26 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.row-layout {
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  flex: 1 1 0;
+}
+.grid {
+  flex: 1 1 0;
+  min-width: 50px;
+  min-height: 50px;
+}
+.igx-column {
+  width: 500px;
+  height: 200px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row {
+  display: flex;
+}

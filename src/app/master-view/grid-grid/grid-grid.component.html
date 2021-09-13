@@ -1,0 +1,29 @@
+<igx-grid [data]="northwindCustomers" [autoGenerate]="false" width="1267px" height="248px" class="grid">
+  <igx-column field="customerID" header="customerID" title="customerID" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="companyName" header="companyName" title="companyName" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="contactName" header="contactName" title="contactName" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="contactTitle" header="contactTitle" title="contactTitle" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="address.street" header="street" title="address.street" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="address.city" header="city" title="address.city" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="address.region" header="region" title="address.region" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="address.postalCode" header="postalCode" title="address.postalCode" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="address.country" header="country" title="address.country" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="address.phone" header="phone" title="address.phone" dataType="string" class="igx-column"></igx-column>
+</igx-grid>
+<igx-grid [data]="northwindOrders" [autoGenerate]="false" width="1268px" height="466px" class="grid_1">
+  <igx-column field="orderID" header="orderID" title="orderID" dataType="number" class="igx-column"></igx-column>
+  <igx-column field="customerID" header="customerID" title="customerID" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="employeeID" header="employeeID" title="employeeID" dataType="number" class="igx-column"></igx-column>
+  <igx-column field="orderDate" header="orderDate" title="orderDate" dataType="date" class="igx-column"></igx-column>
+  <igx-column field="requiredDate" header="requiredDate" title="requiredDate" dataType="date" class="igx-column"></igx-column>
+  <igx-column field="shippedDate" header="shippedDate" title="shippedDate" dataType="date" class="igx-column"></igx-column>
+  <igx-column field="shipVia" header="shipVia" title="shipVia" dataType="number" class="igx-column"></igx-column>
+  <igx-column field="freight" header="freight" title="freight" dataType="number" class="igx-column"></igx-column>
+  <igx-column field="shipName" header="shipName" title="shipName" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="shipAddress.street" header="street" title="shipAddress.street" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="shipAddress.city" header="city" title="shipAddress.city" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="shipAddress.region" header="region" title="shipAddress.region" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="shipAddress.postalCode" header="postalCode" title="shipAddress.postalCode" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="shipAddress.country" header="country" title="shipAddress.country" dataType="string" class="igx-column"></igx-column>
+</igx-grid>
+<p class="text">This is a Master-Detail example of Customers Orders.  2 Grids on the page, should resize nicely and scroll as expected. </p>

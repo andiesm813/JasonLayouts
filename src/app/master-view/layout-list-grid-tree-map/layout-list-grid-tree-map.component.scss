@@ -1,0 +1,61 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.layout {
+  flex: 1 1 0;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.left-column {
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.list {
+  height: auto;
+  min-width: max-content;
+  flex: 0 0 auto;
+}
+.grid {
+  flex: 1 0 auto;
+  min-width: 50px;
+  min-height: 50px;
+}
+.igx-column {
+  height: 200px;
+  width: 500px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.list-item {
+  min-width: 0;
+  min-height: 0;
+  flex: 0 0 auto;
+}
+.image {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 0;
+  object-fit: cover;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  flex: 0 0 auto;
+}
+.avatar {
+  flex: 0 0 auto;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

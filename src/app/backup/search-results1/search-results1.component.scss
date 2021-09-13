@@ -1,0 +1,105 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.column-layout {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex: 1 1 0;
+  min-height: 50px;
+  min-width: 50px;
+}
+.row-layout {
+  min-height: 120px;
+  max-height: 120px;
+  background-color: var(--igx-grays-200);
+  flex: 1 1 0;
+  align-items: stretch;
+  min-width: 50px;
+}
+.column-layout_1 {
+  max-width: 1280px;
+  position: relative;
+  flex: 1 1 0;
+  align-items: stretch;
+  min-height: 50px;
+  min-width: 50px;
+}
+.row-layout_1 {
+  max-height: 50px;
+  position: relative;
+  align-items: stretch;
+  min-height: 50px;
+  min-width: 50px;
+}
+.row-layout_2 {
+  flex-wrap: wrap;
+  padding: 40px;
+  position: relative;
+  align-items: stretch;
+  min-height: 50px;
+  min-width: 50px;
+}
+.column-layout_2 {
+  flex: 1 1 0;
+  align-items: stretch;
+  min-height: 50px;
+  min-width: 50px;
+}
+.card {
+  min-width: 320px;
+  flex: 0 0 auto;
+  margin: 16px;
+  width: 320px;
+  height: max-content;
+}
+.actions {
+  min-height: 40px;
+  min-width: 50px;
+}
+.content {
+  min-height: 50px;
+  min-width: 50px;
+}
+.title {
+  position: absolute;
+  top: 16.99998779296871px;
+  left: 392.1999389648433px;
+  color: var(--igx-secondary-700);
+  min-width: min-content;
+  flex: 0 0 auto;
+  height: max-content;
+}
+.title_1 {
+  position: relative;
+  min-width: min-content;
+  flex: 0 0 auto;
+  height: max-content;
+}
+.text {
+  min-width: min-content;
+  flex: 0 0 auto;
+  height: max-content;
+}
+.icon {
+  width: max-content;
+  height: max-content;
+}
+.button {
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.icon-button {
+  flex: 0 0 auto;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

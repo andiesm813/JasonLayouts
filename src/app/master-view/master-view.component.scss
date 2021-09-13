@@ -1,0 +1,42 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.navigation-bar {
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.views-container {
+  flex: 1 1 0;
+  position: relative;
+}
+.navigation-drawer {
+  width: 320px;
+  min-height: 0;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.navigation-drawer_1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.icon-button {
+  flex: 0 0 auto;
+}
+.icon {
+  width: max-content;
+  height: max-content;
+}
+.row-layout {
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex: 1 1 auto;
+}
+.row {
+  display: flex;
+}

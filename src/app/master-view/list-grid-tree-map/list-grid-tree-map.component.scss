@@ -1,0 +1,65 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.grid {
+  top: 157.29016032129854px;
+  left: 438.6044492389923px;
+  position: absolute;
+  width: 935px;
+  height: 403px;
+  min-width: 50px;
+  min-height: 50px;
+  flex: 0 0 auto;
+}
+.list {
+  left: 34px;
+  position: fixed;
+  width: 340px;
+  height: auto;
+  min-width: max-content;
+  bottom: -231.1249238720782px;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+.igx-column {
+  width: 500px;
+  height: 200px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.list-item {
+  min-width: 0;
+  min-height: 0;
+  flex: 0 0 auto;
+}
+.image {
+  width: 933px;
+  height: 270px;
+  top: 587.8998103966517px;
+  left: 421.7426990066284px;
+  min-width: 0;
+  min-height: 0;
+  object-fit: cover;
+  position: absolute;
+  flex: 0 0 auto;
+}
+.text {
+  width: 1274px;
+  height: max-content;
+  top: 38.19073769248722px;
+  left: 69.37007842086668px;
+  min-width: min-content;
+  position: absolute;
+  flex: 0 0 auto;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  flex: 0 0 auto;
+}
+.avatar {
+  flex: 0 0 auto;
+}
