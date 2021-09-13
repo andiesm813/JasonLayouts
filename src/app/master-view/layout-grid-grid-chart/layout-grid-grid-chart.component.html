@@ -1,5 +1,5 @@
 <div class="top-container row">
-  <igx-grid [data]="northwindCustomers" [autoGenerate]="false" class="grid_1">
+  <igx-grid [data]="northwindCustomers" [autoGenerate]="false" class="grid">
     <igx-column field="customerID" header="customerID" title="customerID" dataType="string" class="igx-column"></igx-column>
     <igx-column field="companyName" header="companyName" title="companyName" dataType="string" class="igx-column"></igx-column>
     <igx-column field="contactName" header="contactName" title="contactName" dataType="string" class="igx-column"></igx-column>
@@ -13,7 +13,7 @@
   </igx-grid>
 </div>
 <div class="bottom-row row">
-  <igx-grid [data]="northwindOrders" [autoGenerate]="false" height="466px" class="grid">
+  <igx-grid [data]="northwindOrders" [autoGenerate]="false" class="grid">
     <igx-column field="orderID" header="orderID" title="orderID" dataType="number" class="igx-column"></igx-column>
     <igx-column field="customerID" header="customerID" title="customerID" dataType="string" class="igx-column"></igx-column>
     <igx-column field="employeeID" header="employeeID" title="employeeID" dataType="number" class="igx-column"></igx-column>

@@ -6,7 +6,7 @@ import { UncaughtErrorComponent } from './error-routing/error/uncaught-error.com
 import { ErrorRoutingModule } from './error-routing/error-routing.module';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'master-view/grid-grid', pathMatch: 'full' },
+  { path: '', redirectTo: 'layout-filter-list/search-results', pathMatch: 'full' },
   { path: 'error', component: UncaughtErrorComponent },
   { path: 'master-view', loadChildren: () => import('./master-view/master-view.module').then(m => m.MasterViewModule) },
   { path: 'layout-filter-list', loadChildren: () => import('./layout-filter-list/layout-filter-list.module').then(m => m.LayoutFilterListModule) },
