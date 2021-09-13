@@ -7,6 +7,7 @@
 }
 .top-container {
   position: relative;
+  margin: 16px 0;
   align-items: stretch;
   min-width: 50px;
   min-height: 50px;
@@ -19,12 +20,6 @@
   flex: 1 1 0;
 }
 .grid {
-  height: 466px;
-  flex: 1 1 0;
-  min-width: 50px;
-  min-height: 50px;
-}
-.grid_1 {
   flex: 1 1 0;
   min-width: 50px;
   min-height: 50px;
